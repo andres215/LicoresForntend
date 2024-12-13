@@ -7,7 +7,6 @@ const NavBar: React.FC = () => {
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <nav className="bg-[#3B3F54] p-4 flex justify-around items-center text-white">
       <button
